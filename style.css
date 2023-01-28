@@ -1,0 +1,42 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(250, 245, 238);
+
+}
+
+
+/* Анимация fadeIn */
+.logo__img {
+
+        display: block;
+        margin: 0 auto;
+        align-items: center;
+        width: 25rem;
+
+}
+.animate__animated.animate__fadeIn {
+    --animate-duration: 4s;
+}
+/* ----------------- */
+
+
+
+h1 {
+    margin-left: 1.5625rem;
+    margin-top: 1.5625rem;
+}
+.back {
+    margin-left: 1.5625rem;
+
+}
+.examples {
+    padding-left: 3.125rem;
+    display: flex;
+    flex-direction: column;
+}
+.examples a {
+    margin-bottom: 0.3125rem;
+    color: rgb(161, 6, 245);
+}
